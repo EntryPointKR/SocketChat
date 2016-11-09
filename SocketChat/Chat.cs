@@ -25,6 +25,8 @@ namespace SocketChat
                 }
                 ChatBox.Text = "";
                 ChatBox.Focus();
+                ContentBox.SelectionStart = ContentBox.Text.Length;
+                ContentBox.ScrollToCaret();
             }
             //else
             //{

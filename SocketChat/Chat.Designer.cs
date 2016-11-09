@@ -70,6 +70,8 @@
             this.Controls.Add(this.SendBtn);
             this.Controls.Add(this.ChatBox);
             this.Controls.Add(this.ContentBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Chat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chat";
